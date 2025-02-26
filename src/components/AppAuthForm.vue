@@ -42,6 +42,7 @@ async function submit() {
 </script>
 
 <template>
+  <p>asdas</p>
   <form class="form pa-xl" @submit.prevent="submit">
     <h2 class="title mb-md">{{ isSignInMode ? 'Sign in' : 'Sign up' }}</h2>
     <div class="mb-md">
@@ -89,3 +90,4 @@ async function submit() {
   text-decoration: underline;
 }
 </style>
+
